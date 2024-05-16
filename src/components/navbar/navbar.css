@@ -1,0 +1,25 @@
+.blog__navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem 6rem;
+
+}
+
+.blog__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blog__navbar-links_logo{
+margin-right: 2rem;
+
+}
+
+.blog__navbar-links_logo img{
+
+height: 100px;
+
+}
