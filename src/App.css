@@ -17,7 +17,7 @@ a {
 .gradient__bg 
 {
     /* global 92%+ browsers support */
-    background: #ffe5ec;
+    background: var(--color-footer);
     /* radial-gradient(circle at 90% 65%, rgba(255, 143, 171, 1) 0%, rgba(255, 194, 209, 1) 49%, rgba(255, 229, 236, 1) 100%); */
 }
             

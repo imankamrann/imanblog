@@ -8,48 +8,39 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    /* flex-direction: column; */
 
-    /* margin-right: 5rem; */
 }
 
 .blog__header-content h1 {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 62px;
-    line-height: 75px;
-    letter-spacing: -0.04em;
+    font-size: 70px;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
     color: white;
 
 }
 
-/* .blog__header-content p{
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 20;
-    line-height: 27;
-    color: white;
-
-    margin-top: 1.5rem;
-} */
-
-/* 
-.blog__header-image{
- flex: 4;
- display: flex;
- justify-content: center;
- align-items: center;
-}
-
-.blog__header-image img{
- width: 100%;
- height: 100%;
-} */
 
 .blog__header {
-  background-image: url('../../assets/museum.jpeg');
-   background-size: cover; /* Ensures the image covers the entire element */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-     min-height: 600px;
+  background-image: url('../../assets/museumUpdated.png');
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 600px;
 }
+
+/* Adjust for tablets */
+@media (max-width: 1050px) {
+  .blog__header {
+    min-height: 400px;
+  }
+}
+
+/* Adjust for mobile devices */
+@media (max-width: 650px) {
+  .blog__header {
+    min-height: 300px;
+  }
+}
+

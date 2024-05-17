@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import art from '../../assets/museum.jpeg';
+
 
 const Header = () => {
   return (
