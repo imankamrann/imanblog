@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 :root {
-  --font-family: 'Manrope', sans-serif;
+   /* --font-family: "Lora", serif; */
+  --font-family: "EB Garamond", serif;
+  --font-style: normal;
+  --font-optical-sizing: auto;
+  --font-weight: <weight>;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-text:  white;
+  /* linear-gradient(89.97deg, #a082fb 1.84%, #fe5c85 102.67%); */
+  --gradient-bar:  #ffc2d1;
+  /* linear-gradient(103.22deg, #a082fb -13.86%, #fe5c85 99.55%); */
   
-  --color-bg: #040C18;
-  --color-footer : #031B34;
-  --color-blog: #042c54;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+  --color-bg: #ffe5ec;
+  --color-footer : #ffc2d1;
+  --color-blog: #ffb3c6;
+  --color-text: #001d3d;
+  --color-subtext: #003566;
 }

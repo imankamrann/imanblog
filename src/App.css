@@ -16,8 +16,9 @@ a {
 
 .gradient__bg 
 {
-    /* global 94%+ browsers support */
-    background: linear-gradient(180deg, rgba(221, 161, 94, 1) 0%, rgba(254, 250, 224, 1) 49%, rgba(254, 250, 224, 1) 100%);
+    /* global 92%+ browsers support */
+    background: #ffe5ec;
+    /* radial-gradient(circle at 90% 65%, rgba(255, 143, 171, 1) 0%, rgba(255, 194, 209, 1) 49%, rgba(255, 229, 236, 1) 100%); */
 }
             
 .gradient__text
