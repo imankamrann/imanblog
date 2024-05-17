@@ -10,6 +10,7 @@ const App = () => {
           <div className='gradient__bg'>
               <Navbar />
               <Header />
+              <CTA/>
           </div>
           <Brand />
           <Details />

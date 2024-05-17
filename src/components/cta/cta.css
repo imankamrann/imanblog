@@ -1,0 +1,46 @@
+.cta__container{
+    display: flex;
+  padding: 5rem;
+  height: 800px;
+}
+
+.cta__splineView {
+     flex: 1; 
+   
+  
+}
+
+.cta__content{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+
+.cta__text{
+ padding: 5rem;
+ font-family: var(--font-family);
+}
+
+.cta__text h2{
+font-size: 50px;
+ margin-bottom: 1rem;
+
+}
+
+.cta__text p{
+font-size: 18px;
+  margin-top: 1rem;
+   letter-spacing: 0.5px;
+ 
+
+
+}
+
+.cta__image{
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
