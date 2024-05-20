@@ -1,0 +1,82 @@
+
+
+ /* Base styles */
+.welcome__container {
+  display: flex;
+  padding: 5rem;
+  height: 800px;
+}
+
+.welcome__splineView {
+  flex: 1;
+}
+
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.welcome__text {
+  padding: 5rem;
+  font-family: var(--font-family);
+}
+
+.welcome__text h2 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.welcome__text p {
+  font-size: 18px;
+  margin-top: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.welcome__image {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1050px) {
+  .welcome__container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 2rem; /* Reduced padding for smaller screens */
+  }
+
+  .welcome__text {
+    padding: 1rem; /* Further reduced padding for smaller screens */
+  }
+
+  .welcome__text h2 {
+    font-size: 2rem; /* Further adjusted font size for smaller screens */
+  }
+
+  .welcome__text p {
+    font-size: 1.2rem; /* Further adjusted font size for smaller screens */
+  }
+
+  .welcome__image {
+    max-width: 100%; /* Ensure image occupies full width on smaller screens */
+  }
+
+ 
+}
+
+@media screen and (max-width: 550px) {
+  .welcome__text {
+    padding: 0.5rem; /* Further reduced padding for very small screens */
+  }
+
+  .welcome__text h2 {
+    font-size: 1.5rem; /* Further adjusted font size for very small screens */
+  }
+
+  .welcome__text p {
+    font-size: 1rem; /* Further adjusted font size for very small screens */
+  }
+}

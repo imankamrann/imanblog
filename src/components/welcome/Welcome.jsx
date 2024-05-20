@@ -1,18 +1,7 @@
-// import React from 'react'
-// import './cta.css'
-
-// const CTA = () => {
-//   return (
-//     <div>CTA</div>
-//   )
-// }
-
-// export default CTA
-
 import React, { useEffect, useRef } from 'react';
-import './cta.css'
+import './welcome.css'
 
-const CTA = () => {
+const Welcome = () => {
   const splineRef = useRef();
 
 
@@ -31,19 +20,19 @@ const CTA = () => {
   }, []);
 
   return (
-    <div className='cta__container'>
-      <div className='cta__splineView'>
+    <div className='welcome__container'>
+      <div className='welcome__splineView'>
       <spline-viewer ref={splineRef} url="https://prod.spline.design/x8B4wVUCYI-fHU2V/scene.splinecode"></spline-viewer>
       </div>
-      <div className='cta__content'>
-         <div className="cta__text">
+      <div className='welcome__content'>
+         <div className="welcome__text">
           <h2>Welcome!</h2>
           {/* <p>"You are not here just to work and be productive. you are here to sing, and dance, and be happy.{<br/>}You are here to inspire and be inspired. {<br/>} You are here to love life and let it love you."</p> */}
           <p>
             I am the Lorax. I speak for the trees. ଘ(੭ˊᵕˋ)੭
         </p>
         </div>
-        {/* <div className="cta__image">
+        {/* <div className="welcome__image">
           <img src="path/to/your/image.jpg" alt="Image" />
         </div> */}
       </div>
@@ -51,4 +40,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Welcome;
