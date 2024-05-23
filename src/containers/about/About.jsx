@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='blog__about section__margin' id='about'>
       <div className='blog__about-feature'>
-        <Welcome/>
+        {/* <Welcome/> */}
       </div>
       <div className='blog__about-heading'>
         <h1 className='gradient-text'></h1>
