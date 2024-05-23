@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css'
 import logo from '../../assets/spaceCat.png';
+import { Link } from 'react-router-dom';
 
 
 const Menu = () => (
