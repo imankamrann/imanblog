@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/imanblog/static/css/main.c5eb83f8.css",
+    "main.js": "/github.io/imanblog/static/js/main.eb6ce2cb.js",
+    "static/media/museumUpdated.png": "/github.io/imanblog/static/media/museumUpdated.41e3056bdf5e8cc06924.png",
+    "static/media/spaceCat.png": "/github.io/imanblog/static/media/spaceCat.a9e9404ae582b4cbfd4d.png",
+    "index.html": "/github.io/imanblog/index.html",
+    "main.c5eb83f8.css.map": "/github.io/imanblog/static/css/main.c5eb83f8.css.map",
+    "main.eb6ce2cb.js.map": "/github.io/imanblog/static/js/main.eb6ce2cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5eb83f8.css",
+    "static/js/main.eb6ce2cb.js"
+  ]
+}
